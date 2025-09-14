@@ -1,0 +1,6 @@
+- incorrect/correct indication
+- choose how many questions
+- filter countries by region
+- learn proper component and file structure
+- maybe another hook for handling the quiz logic
+- other quizzes (country shape outline, capitals, click on map) => main page / figure out routing

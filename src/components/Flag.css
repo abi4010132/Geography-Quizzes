@@ -1,0 +1,14 @@
+.flag-small {
+  width: auto;
+  height: 50px;
+}
+
+.flag-medium {
+  width: auto;
+  height: 200px;
+}
+
+.flag-large {
+  width: auto;
+  height: 400px;
+}
