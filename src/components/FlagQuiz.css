@@ -32,6 +32,12 @@ h1 {
     transition: all 0.2s ease;
 }
 
+.feedback {
+  max-width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
 .submit-input:focus {
     outline:none;
 }

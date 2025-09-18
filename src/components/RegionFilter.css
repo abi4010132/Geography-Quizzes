@@ -1,0 +1,34 @@
+.region-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.region-filter > input {
+  display: none; 
+}
+
+.region-filter > label {
+  display: flex;
+  padding: 0.3rem 0.6rem;
+  border: 2px solid #deb1ff;
+  border-radius: 8px;
+  color: #deb1ff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  user-select: none;
+}
+
+/* make this better  */
+.region-filter > label:hover {
+    box-shadow: 0 0 10px #deb1ff;
+}
+
+
+.region-filter > input:checked + label {
+  background-color: #deb1ff;
+  color: black;
+}

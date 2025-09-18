@@ -41,10 +41,8 @@ progress::-webkit-progress-bar {
 
 progress::-webkit-progress-value {
   background-color: #deb1ff;
-  border-radius: 3px;
 }
 
 progress::-moz-progress-bar {
   background-color: #deb1ff;
-  border-radius: 3px;
 }

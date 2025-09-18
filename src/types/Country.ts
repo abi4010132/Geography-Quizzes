@@ -3,5 +3,7 @@ export interface Country {
     flag: string;
     alpha2: string;
     alpha3: string;
+    region: string;
+    subregion?: string;
 }
 
