@@ -19,6 +19,7 @@ export function useFetchCountries() {
           alpha2: country.cca2,
           alpha3: country.cca3,
           region: country.region,
+          shape: `https://cdn-assets.teuteuf.fr/data/common/country-shapes/${country.cca2.toLowerCase()}.svg`
         }));
 
         setCountries(shuffle(countryList));

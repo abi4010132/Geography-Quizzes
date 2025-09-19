@@ -4,8 +4,7 @@ import { checkAnswer } from "../utils/checkAnswer";
 import RegionFilter from "./RegionFilter";
 import { useFetchCountries } from "../hooks/useFetchCountries";
 import { useFilterCountries } from "../hooks/useFilterCountries";
-import Flag from "./Flag";
-
+import Shape from "./Shape";
 const FlagQuiz = () => {
     const countries = useFetchCountries();
     const [regions, setRegions] = useState<string[]>([]);
@@ -15,9 +14,9 @@ const FlagQuiz = () => {
 
     return (
         <Quiz
-            header="Guess the Flag"
+            header="Guess the Shape"
             countries={filteredCountries}
-            renderQuestion={(country) => <Flag country={country} size="large" />}
+            renderQuestion={(country) => <Shape country={country} />}
             checkAnswer={checkAnswer}
             placeholder="Guess the country"
             filterUI={<RegionFilter filteredRegions={regions} onChange={setRegions} />}

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export const useOnKeyPress = (callback: Function, targetKey: string) => {
+export const useOnKeyPress = (callback: () => void, targetKey: string) => {
     useEffect(() => {
         console.log("key")
         const keyPressHandler = (e: KeyboardEvent) => {

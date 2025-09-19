@@ -5,5 +5,6 @@ export interface Country {
     alpha3: string;
     region: string;
     subregion?: string;
+    shape: string;
 }
 

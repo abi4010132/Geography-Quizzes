@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./RegionFilter.css"
 
 const regions = ["Africa", "Americas", "Asia", "Europe", "Oceania"];

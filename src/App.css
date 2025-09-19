@@ -7,3 +7,62 @@
   align-items: center;     
 }
 
+
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.quiz-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.quiz-card {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #deb1ff; 
+  border-radius: 12px;
+  background: transparent;
+  color: #deb1ff;
+  transition: all 0.2s ease-in-out;
+}
+
+.quiz-card:hover {
+  background: #deb1ff;
+  color: black;
+}
+
+.submit-button {
+  background-color: transparent;
+  max-width: 100%;
+  padding: 0.6rem;
+  border: 2px solid #deb1ff; 
+  color: #deb1ff;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #deb1ff;
+  color: black; 
+}
